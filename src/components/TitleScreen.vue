@@ -1,8 +1,7 @@
 <template>
     <div class="titleScreen">
         <div class="topLeft">
-            <h1>SoundPillards</h1>
-            <p>A simple creative coding example</p>
+            <h1>First 3D Website</h1>
         </div>
         <button v-if="!playFlag" @click="onPlay()">Play</button>
         <button v-else @click="onPause()">Pause</button>
